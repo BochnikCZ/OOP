@@ -21,4 +21,3 @@ string Client::GetName()
 {
 	return this->name;
 }
-
