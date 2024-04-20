@@ -1,8 +1,6 @@
 #include <iostream>
 #include <string>
 
-#include "Account.h"
-#include "Client.h"
 #include "Bank.h"
 using namespace std;
 
@@ -15,9 +13,9 @@ int main()
 
     MoneyBank->GetAccount(0)->Deposit(1000);
     MoneyBank->AddInterest();
-
-    MoneyBank->CreateClient(1, "Radovan Souèek");
-    MoneyBank->CreateClient(2, "Vladimíra Souèková");
+    
+    MoneyBank->CreateClient(1, "Radovan Soucek");
+    MoneyBank->CreateClient(2, "Vladimira Souckova");
     MoneyBank->CreateAccount(1, MoneyBank->GetClient(2), MoneyBank->GetClient(1), 2.1);
 
     MoneyBank->GetAccount(0)->Withdraw(200);
@@ -27,7 +25,7 @@ int main()
 
     MoneyBank->GetAccount(0)->Withdraw(2000);
     MoneyBank->GetAccount(1)->Withdraw(2000);
-
+    
     MoneyBank->Print();
 
     delete MoneyBank;
