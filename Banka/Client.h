@@ -1,11 +1,9 @@
 #pragma once
+
 #include <iostream>
 #include <string.h>
 #include <stdbool.h>
 
-#include "Client.cpp"
-#include "Account.h"
-#include "Bank.h"
 
 using namespace std;
 
