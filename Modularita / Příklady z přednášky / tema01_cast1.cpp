@@ -65,7 +65,7 @@ int main()
 	//delete kv2;
 
 	cout << kv1->GetKey() << endl;			
-	//jestlie smaeme nìco z pamìti, u je to navdy nedostupné, a proto se nám pøi kompilaci tohoto kódu vypíše random nesmyslné èíslo místo pùvodního klíèe objektu kv1
+	//jestlize smazeme neco z pameti, uz je to navzdy nedostupne, a proto se nam pri kompilaci tohoto kodu vypise random nesmyslne cislo misto puvodniho klice objektu kv1
 	cout << kv2->GetKey() << endl;
 
 	getchar();
